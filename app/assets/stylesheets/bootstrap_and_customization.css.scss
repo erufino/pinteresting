@@ -1,8 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Gilda+Display|Amarante);
+@import url(http://fonts.googleapis.com/css?family=Amarante);
 
 $body-bg:        #bdc3c7;
-$font-family: 'Gilda Display', serif;
-$font-family: 'Amarante', cursive;
+$font-family-sans-serif:                'Amarante', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 $navbar-inverse-bg: #e74c3c;
 $navbar-inverse-link-color: white;
@@ -12,5 +11,6 @@ $brand-success: #9b59b6;
 $brand-info:    #3498db;
 $brand-warning: #2ecc71;
 $brand-danger:  #c0392b;
+$brand-default: white;
 
 @import 'bootstrap'
