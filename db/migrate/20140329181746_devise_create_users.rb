@@ -1,4 +1,4 @@
-20140330043624_create_pins.rbclass DeviseCreateUsers < ActiveRecord::Migration
+DeviseCreateUsers < ActiveRecord::Migration
   def change
     create_table(:users) do |t|
       ## Database authenticatable
